@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.container{
+    
+    display: grid;
+    background-color:lightskyblue;
+    grid-template-columns: 10% 80% 10%;
+    margin:20px auto;   
+    
+}
+
