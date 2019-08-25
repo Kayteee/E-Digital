@@ -25,7 +25,9 @@ const ModalBox = props => {
       </Modal.Dialog>,document.querySelector('#modal')
   )
   }else{
-    return null;
+    //console.log('else condition')
+    props.history.push('/');
+    return  null;
   }
 }
 
